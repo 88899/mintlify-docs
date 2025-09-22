@@ -1,0 +1,23 @@
+/* 自定义 Logo 样式 */
+.nav-logo {
+  /* 修改高度（默认是 h-6，即 1.5rem） */
+  height: 2rem !important; /* 使用 !important 确保覆盖默认样式 */
+
+  /* 修改宽度（默认是 w-auto） */
+  width: auto;
+
+  /* 添加边距 */
+  margin-right: 10px !important;
+
+  /* 添加圆角 */
+  /* border-radius: 4px; */
+
+  /* 其他自定义样式（如阴影、过渡效果等） */
+  /* box-shadow: 0 2px 4px rgba(0,0,0,0.1); */
+  /* transition: transform 0.3s ease; */
+}
+
+/* 鼠标悬停效果 */
+.nav-logo:hover {
+  transform: scale(1.05);
+}
